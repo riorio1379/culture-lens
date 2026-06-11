@@ -1,0 +1,9 @@
+# APIキーや秘密情報は絶対にコミットしない
+.env
+*.key
+__pycache__/
+*.pyc
+
+# 個人の写真はコミットしない（サンプル説明だけ残す）
+sample_images/*
+!sample_images/.gitkeep
